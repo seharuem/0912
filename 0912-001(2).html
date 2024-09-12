@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스쉐도우</title>
+    <style>
+        div {
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 350px;
+            height: 40px;
+            background: #ccc;
+            box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        input[type="text"] {
+            margin: 5px;
+            outline: none;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="Search">
+    </div>
+    <form action="action.php">
+        <h1>회원 로그인</h1>
+        <label>아이디 : <input type="text" placeholder="아이디 입력" autocomplete="off"></label><br>
+        패스워드 : <input type="text" placeholder="비밀번호 입력"><br><br>
+        <input type="submit" value="로그인"> <input type="reset" value="초기화">
+    </form>
+    <form action="">
+        <input type="color" name="" id=""><br>
+        <input type="date"><br>
+        <input type="datetime"><br>
+        <input type="datetime-local"><br>
+        <input type="week">
+    </form>
+</body>
+</html>

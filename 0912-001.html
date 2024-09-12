@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색</title>
+    <style>
+        form {
+            border: 3px solid black;
+            border-radius: 50px;
+            width: 200px;
+            height: 30px;
+            padding: 10px;
+            padding-left: 30px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        input[type="text"] {
+            font-size: 20px;
+            width: 200px;
+            border: 0;
+            outline: 0;
+        }
+        input[type="text"]:focus {
+            width: 200px;
+            div {
+                width: 400px;
+                border: 3px solid white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form action="action.php">
+        <input type="text" placeholder="Search">
+    </form>
+</body>
+</html>
